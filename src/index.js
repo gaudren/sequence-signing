@@ -2,7 +2,7 @@ import { sequence } from '0xsequence'
 
 async function main() {
   const wallet = new sequence.Wallet('polygon', {
-    walletAppURL : 'http://localhost:3333'
+    walletAppURL : 'https://dev.sequence.app'
   })
   await wallet.disconnect()
 
